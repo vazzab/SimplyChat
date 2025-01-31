@@ -22,7 +22,7 @@ public class ChatClient {
                         System.out.println(serverMessage);
                     }
                 } catch (IOException e) {
-                    System.out.println("Отключились от сервера.");
+                    System.out.println("Disconnected from server.");
                 }
             }
         });
